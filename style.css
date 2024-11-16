@@ -1,0 +1,35 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #393941;
+}
+ 
+header {
+    background-color: #4b04d1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ 
+.video-principal {
+    flex: 2;
+    margin-right: 20px;
+}
+ 
+.videos-secundarios {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
